@@ -10,13 +10,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/yuzukicat/cloudfront-s3-actions-react">
-    <img src="https://eyesjapan.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/15000?size=xxlarge&quot" alt="food-plating-ai" width="80" height="80">
+    <img src="https://eyesjapan.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/15000?size=xxlarge&quot" alt="React deploy to S3 with Cloudfront CDN create resources using Cloudformation" width="80" height="80">
   </a>
 
-  <h3 align="center">Food Plating AI</h3>
+  <h3 align="center">React deploy to S3 with Cloudfront CDN create resources using Cloudformation</h3>
 
   <p align="center">
-    Front-end Development with Google Angular
     <br />
     <a href="https://github.com/yuzukicat/cloudfront-s3-actions-react"><strong>Cloudfront S3 Actions React »</strong></a>
     <br />
@@ -54,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Food AI Site Screen Shot][product-screenshot]](/src/assets/about/about-the-project.png)
+[![React deploy to S3 with Cloudfront CDN create resources using Cloudformation][product-screenshot]](/src/assets/about/about-the-project.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
