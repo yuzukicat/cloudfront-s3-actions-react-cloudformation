@@ -160,13 +160,3 @@ Please share useful links here for reference.
 [issues-url]: https://eyesjapan.atlassian.net/jira/software/projects/FOODAI/boards/231
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [product-screenshot]: /src/assets/about/about-the-project.png
-
-
-
-
-https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html
-
-S3 URL: https://s3.ap-northeast-3.amazonaws.com/cf-templates-1xljco7p1ppqj-ap-northeast-3/2022243uMJ-react-cors-spa-stack.yaml
-
-Stack failure options
-Preserve successfully provisioned resources
