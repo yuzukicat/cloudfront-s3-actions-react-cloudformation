@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/yuzukicat/cloudfront-s3-actions-react">
-    <img src="https://eyesjapan.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/15000?size=xxlarge&quot" alt="React deploy to S3 with Cloudfront CDN create resources using Cloudformation" width="80" height="80">
+    <img src="./cloudfront-s3-actions-react.png" alt="React deploy to S3 with Cloudfront CDN create resources using Cloudformation" width="80" height="80">
   </a>
 
   <h3 align="center">React deploy to S3 with Cloudfront CDN create resources using Cloudformation</h3>
@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![React deploy to S3 with Cloudfront CDN create resources using Cloudformation][product-screenshot]](/src/assets/about/about-the-project.png)
+[![React deploy to S3 with Cloudfront CDN create resources using Cloudformation][product-screenshot]](./cloudfront-s3-actions-react.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -158,8 +158,8 @@ Please share useful links here for reference.
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://eyesjapan.atlassian.net/jira/software/projects/FOODAI/boards/231
 [pull-request-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[pull-request-url]: https://git-codecommit.us-west-2.amazonaws.com/v1/repos/food-ai-app
+[pull-request-url]: https://github.com/yuzukicat/cloudfront-s3-actions-react/pulls
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://eyesjapan.atlassian.net/jira/software/projects/FOODAI/boards/231
+[issues-url]: https://github.com/yuzukicat/cloudfront-s3-actions-react/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[product-screenshot]: /src/assets/about/about-the-project.png
+[product-screenshot]: ./cloudfront-s3-actions-react.png
