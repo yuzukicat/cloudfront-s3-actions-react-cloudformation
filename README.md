@@ -53,7 +53,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![React deploy to S3 with Cloudfront CDN create resources using Cloudformation][product-screenshot]](./cloudfront-s3-actions-react.png)
+[![React deploy to S3 with Cloudfront CDN create resources using Cloudformation][product-screenshot]](./cloudfront-s3-actions-react.png)   
+
+Auto deploy react SPA to AWS S3 using github actions, and a Cloudformation template to auto initialize S3, Cloudfront resources in aws.   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,8 +89,8 @@ sudo chmod -R 777 cloudfront-s3-actions-react
 cd cloudfront-s3-actions-react
 ```
 
-3. To Create the infrastructure to host and expose a React Single Page Application:
-Deploy the AWS CloudFormation template.
+3. To Create the infrastructure to host and expose a React Single Page Application:   
+Deploy the AWS CloudFormation template.   
 See [AWS Rrescriptive Guidance | Websites & web apps](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html)
 - Epics
   - Deploy the SPA
@@ -101,13 +103,22 @@ See [AWS Rrescriptive Guidance | Websites & web apps](https://docs.aws.amazon.co
 See [Github Actions | Actions secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md)
 
 5. Edit **react-build-deploy-s3.yml**
-Spefic the branch to be trigged by push action.
-See [Github Actions | actions/checkout@v3](https://github.com/actions/checkout)
-Spefic the aws region.
-See [Amazon Elastic Compute Cloud | Networking in Amazon EC2 | Regions and Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
-Spefic the the dist folder and s3 bucketname(not logic output name for cloudfromation).
+Spefic the branch to be trigged by push action.   
+See [Github Actions | actions/checkout@v3](https://github.com/actions/checkout)   
+Spefic the aws region.   
+See [Amazon Elastic Compute Cloud | Networking in Amazon EC2 | Regions and Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)   
+Spefic the the dist folder and s3 bucketname(not logic output name for cloudfromation).   
 
 6. Git Remote remove origin and Add to you own origin, git push. The public folder will be auto deploy to s3.
+
+7. If you get React router issue on AWS Cloudfront and S3 | React router CloudFront access denied | S3 not found, See  
+[React router issue on AWS Cloudfront and S3 | React router CloudFront access denied | 2022 Fix | Newest](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)   
+If you get **The If-Match version is missing or not valid for the resource.** error when updating custom error pages, try **Incognito Window**   
+
+8. For nocache settings, See   
+[AmazonCloudFront | Invalidating files](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)   
+Also refer to the article to see **Configure default cache behavior**   
+[Continuous Deployment Pipeline for React App on AWS S3 + CloudFront](https://thepaulo.medium.com/continuous-deployment-pipeline-for-react-app-on-aws-s3-cloudfront-ac60f455642a)   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -138,7 +149,7 @@ Emails:
 <!-- CONTACT -->
 ## Contact
 
-Yuzuki.Cat - dawei.jiang@nowhere.co.jp
+Yuzuki.Cat - yuzuki.cat@kamisu66.com
 
 Project Link: [https://github.com/yuzukicat/cloudfront-s3-actions-react](https://github.com/yuzukicat/cloudfront-s3-actions-react)
 
