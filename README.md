@@ -98,7 +98,7 @@ See [AWS Rrescriptive Guidance | Websites & web apps](https://docs.aws.amazon.co
 **Your may need to try rollback and redeploy stack for CFDistribution because it asyncs CDN resources across aws network and takes long time up to half an hour.**
 
 4. Set up ENV for CD.
-See [Github Actions | Actions secrets](https://github.com/yuzukicat/cloudfront-s3-actions-react/settings/secrets/actions)
+See [Github Actions | Actions secrets](https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md)
 
 5. Edit **react-build-deploy-s3.yml**
 Spefic the branch to be trigged by push action.
