@@ -97,12 +97,8 @@ See [AWS Rrescriptive Guidance | Websites & web apps](https://docs.aws.amazon.co
 **Your may need to try rollback and redeploy stack for CFDistribution because it asyncs CDN resources across aws network and takes long time up to half an hour.**
 
 4. Customize your application source files.
-| Key         | Value                                                                |
-| :---        |:---                                                                  |
-| APIEndpoint | https://b8loh8qf28.execute-api.ap-northeast-3.amazonaws.com/v1/hello |
-| BucketName  | react-cors-spa-E3CVB3FLQBYYC2                                        |
 
-5. 
+5. Edit **react-build-deploy-s3.yml**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -144,7 +140,6 @@ Project Link: [https://github.com/yuzukicat/cloudfront-s3-actions-react](https:/
 
 Please share useful links here for reference.
 
-* [Deploy a React-based single-page application to Amazon S3 and CloudFront](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html)
 * [Code OSS Plugin | aws-cloudformation-yaml](https://marketplace.visualstudio.com/items?itemName=DanielThielking.aws-cloudformation-yaml)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
