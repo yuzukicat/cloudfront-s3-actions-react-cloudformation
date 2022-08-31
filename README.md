@@ -40,7 +40,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Git Clone</a></li>
+        <li><a href="#installation">How To</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -60,7 +60,8 @@
 ### Built With
 
 * [AWS CloudFormation | S3 | CloudFront](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html)
-* [Github Actions](https://github.com/features/actions)
+* [Github Actions | actions/checkout@v3](https://github.com/actions/checkout)
+* [Github Actions | aws-actions/configure-aws-credentials@v1](https://github.com/aws-actions/configure-aws-credentials)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -96,16 +97,24 @@ See [AWS Rrescriptive Guidance | Websites & web apps](https://docs.aws.amazon.co
   - Preserve successfully provisioned resources
 **Your may need to try rollback and redeploy stack for CFDistribution because it asyncs CDN resources across aws network and takes long time up to half an hour.**
 
-4. Customize your application source files.
+4. Set up ENV for CD.
+See [Github Actions | Actions secrets](https://github.com/yuzukicat/cloudfront-s3-actions-react/settings/secrets/actions)
 
 5. Edit **react-build-deploy-s3.yml**
+Spefic the branch to be trigged by push action.
+See [Github Actions | actions/checkout@v3](https://github.com/actions/checkout)
+Spefic the aws region.
+See [Amazon Elastic Compute Cloud | Networking in Amazon EC2 | Regions and Zones](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html)
+Spefic the the dist folder and s3 bucketname(not logic output name for cloudfromation).
+
+6. Git Remote remove origin and Add to you own origin, git push. The public folder will be auto deploy to s3.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Fix **You have attempted to create more buckets than allowed** issue resulting in rollback and deployment failure during cloudformation stack deployment.(A tool to delete unused buckets)
+- [ ] Fix **You have attempted to create more buckets than allowed** issue resulting in rollback and deployment failure during cloudformation stack deployment.(A tool to delete unused buckets)
 
 See the [open issues](https://github.com/yuzukicat/cloudfront-s3-actions-react/issues) for a full list of proposed features (and known issues).
 
